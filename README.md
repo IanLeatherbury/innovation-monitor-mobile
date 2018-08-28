@@ -4,7 +4,7 @@ This is an IoT project with a mobile front-end. Or a mobile project with an IoT 
 
 Regardless, this project has the following:
 
-- A Xamarin.Forms Mobile App
+- [A Xamarin.Forms Mobile App](https://github.com/IanLeatherbury/innovation-monitor-mobile)
 - [A Python Raspberry Pi App](https://github.com/IanLeatherbury/innovation-monitor-razzberry-pi)
 - [An Azure Function App](https://github.com/IanLeatherbury/innovation-monitor-functions)
 
