@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:forms="clr-namespace:Plugin.MediaManager.Forms;assembly=Plugin.MediaManager.Forms"
+    x:Class="InnovationMonitor.Pages.VideoPage">
+	<ContentPage.Content>
+        <StackLayout>
+            <forms:VideoView 
+                HeightRequest="202"  
+                WidthRequest="202" />
+           <Button 
+                Text="Take a video!" 
+                TextColor="White" 
+                VerticalOptions = "CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Clicked = "OnTakeVideoButtonClicked"/>
+           <Button 
+                Text="Get last video!" 
+                TextColor="White" 
+                VerticalOptions = "CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Clicked = "OnGetVideoButtonClicked"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
