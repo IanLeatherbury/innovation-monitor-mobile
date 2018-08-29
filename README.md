@@ -1,11 +1,15 @@
 # InnovationMonitor aka BeerMonitor
 
-This is an IoT project with a mobile front-end. Or a mobile project with an IoT backend. Or a cloud project that ties together a mobile front end and an IoT backend. Either way the mobile app is in the front. I'll leave it to you to decide if the IoT portion is the backend or if the cloud portion is the backend. 
+This project combines IoT, Serverless, and Mobile into a nice packaged solution that you can leverage to monitor temperature, pressure, images, and video of an industrial process – in this case, beer. 
 
-Regardless, this project has the following:
+Consists of the following:
 
 - [A Xamarin.Forms Mobile App](https://github.com/IanLeatherbury/innovation-monitor-mobile)
 - [A Python Raspberry Pi App](https://github.com/IanLeatherbury/innovation-monitor-razzberry-pi)
 - [An Azure Function App](https://github.com/IanLeatherbury/innovation-monitor-functions)
 
-The accompanying projects can be found at the links above.
+The accompanying projects can be found at the links above. This guide will break each repo down individually.
+
+Let's get started!
+
+## The IoT Project
