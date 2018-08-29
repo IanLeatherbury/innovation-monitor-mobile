@@ -14,10 +14,11 @@ Let's get started!
 
 # The IoT Project
 
-This is broken down into 3 parts:
+This is broken down into 4 parts:
 - Getting set up and configuring the BME280
 - Setting up the camera
 - Setting up the additional temperature sensor
+- Building the relay and light 
 
 ## IoT Part 1: Setting up the BME280
 
@@ -96,4 +97,7 @@ If the application works normally, then you will see the screen like this:
 
 ## IoT Part 3: Set up the other temperature sensor
 - Follow [this tutorial](https://cdn-learn.adafruit.com/downloads/pdf/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing.pdf). Note that I did not use the Pi Cobbler jumper cable.
+
+## IoT Part 4: Build the relay and wire it up
+- Follow [this tutorial](https://learn.sparkfun.com/tutorials/beefcake-relay-control-hookup-guide) and be sure to do this safely. 
 
