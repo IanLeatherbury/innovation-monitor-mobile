@@ -115,4 +115,6 @@ Each of these functions is responsible for a different aspect of functionality w
 - Take Video
 - TempHumidityEventTrigger
 
+# The Mobile Project
+Finally, we get to see all of our hard work in action.
 
