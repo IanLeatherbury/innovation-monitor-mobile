@@ -101,3 +101,18 @@ If the application works normally, then you will see the screen like this:
 ## IoT Part 4: Build the relay and wire it up
 - Follow [this tutorial](https://learn.sparkfun.com/tutorials/beefcake-relay-control-hookup-guide) and be sure to do this safely. 
 
+# The Functions Project
+Up next, we'll get some Azure Functions running to your IoT Hub.
+
+The project repo is located [here](https://github.com/IanLeatherbury/innovation-monitor-functions).
+
+Each of these functions is responsible for a different aspect of functionality within the mobile app.
+- GetInternalTemp
+- GetTempHumidity
+- TakeInternalTemp
+- TakePicture
+- TakeTempHumidity
+- Take Video
+- TempHumidityEventTrigger
+
+
