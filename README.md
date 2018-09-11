@@ -122,4 +122,23 @@ Each of these functions is responsible for a different aspect of functionality w
 # The Mobile Project
 Finally, we get to see all of our hard work in action.
 
+Clone the repo and enter your API keys into the `Constants/Constants.cs` folder.
+
+```
+public class Constants
+    {
+        public const string StorageConnection = "Link to your storage connection";
+
+        public const string TakePictureURL = "Link to your TakePicture Function URL";
+        public const string TakeVideoURL = "Link to your TakeVideo Function URL";
+        public const string TakeTempHumidityURL = "Link to your TakeTempHumidity URL";
+        public const string GetTempHumidityURL = "Link to your GetTempHumidity URL";
+
+        public const string GetTempHumidityAPI = "/GetTempHumidity?code=your-key-here";
+        public const string TakeTempHumidityAPI = "/TakeTempHumidity?code=your-key-here";
+    }
+```
+
+Deploy the app to a device or simulator and you should be good to go!
+
 <img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-homepage.png" width="600">
