@@ -10,9 +10,16 @@ Consists of the following:
 
 The accompanying projects can be found at the links above. This guide will break each repo down individually.
 
-Also, take a look at the high-level architecture diagram:
+Here's a look at the app:
+<p align="center">
+<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-homepage.png" width="400">
+</p>
 
+And the high-level architecture diagram:
+
+<p align="center">
 <img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/arch-diagram.png" width="600">
+</p>
 
 Let's get started!
 
@@ -43,7 +50,7 @@ Follow [this page](https://www.raspberrypi.org/documentation/configuration/raspi
 #### Connect with a physical BME280 sensor and LED
 You can follow the image to connect your BME280 and an LED with your Raspberry Pi 3.
 
-![BME280](https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-raspberry-pi-kit-node-get-started/3_raspberry-pi-sensor-connection.png)
+<img src="https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-raspberry-pi-kit-node-get-started/3_raspberry-pi-sensor-connection.png" width="600">
 
 #### DON'T HAVE A PHYSICAL BME280?
 You can use the application to simulate temperature&humidity data and send to your IoT hub.
@@ -92,7 +99,7 @@ If you use the python 3, then you can use the command below:
 
 If the application works normally, then you will see the screen like this:
 
-![](./imgs/success.png)
+![](https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/success.png)
 
 ## IoT Part 2: Set up the camera and upload to Azure
 
@@ -121,4 +128,23 @@ Each of these functions is responsible for a different aspect of functionality w
 
 # The Mobile Project
 Finally, we get to see all of our hard work in action.
+
+Clone the repo and enter your API keys into the `Constants/Constants.cs` folder.
+
+```
+public class Constants
+    {
+        public const string StorageConnection = "Link to your storage connection";
+
+        public const string TakePictureURL = "Link to your TakePicture Function URL";
+        public const string TakeVideoURL = "Link to your TakeVideo Function URL";
+        public const string TakeTempHumidityURL = "Link to your TakeTempHumidity URL";
+        public const string GetTempHumidityURL = "Link to your GetTempHumidity URL";
+
+        public const string GetTempHumidityAPI = "/GetTempHumidity?code=your-key-here";
+        public const string TakeTempHumidityAPI = "/TakeTempHumidity?code=your-key-here";
+    }
+```
+
+Deploy the app to a device or simulator and you should be good to go!
 
