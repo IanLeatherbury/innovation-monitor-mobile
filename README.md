@@ -43,7 +43,7 @@ Follow [this page](https://www.raspberrypi.org/documentation/configuration/raspi
 #### Connect with a physical BME280 sensor and LED
 You can follow the image to connect your BME280 and an LED with your Raspberry Pi 3.
 
-![BME280](https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-raspberry-pi-kit-node-get-started/3_raspberry-pi-sensor-connection.png)
+<img src="https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-raspberry-pi-kit-node-get-started/3_raspberry-pi-sensor-connection.png" width="600">
 
 #### DON'T HAVE A PHYSICAL BME280?
 You can use the application to simulate temperature&humidity data and send to your IoT hub.
@@ -122,4 +122,4 @@ Each of these functions is responsible for a different aspect of functionality w
 # The Mobile Project
 Finally, we get to see all of our hard work in action.
 
-<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-homepage.png">
+<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-homepage.png" width="600">
