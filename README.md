@@ -11,12 +11,15 @@ Consists of the following:
 The accompanying projects can be found at the links above. This guide will break each repo down individually.
 
 Here's a look at the app:
-
+<p align="center">
 <img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-homepage.png" width="400">
+</p>
 
 And the high-level architecture diagram:
 
+<p align="center">
 <img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/arch-diagram.png" width="600">
+</p>
 
 Let's get started!
 
