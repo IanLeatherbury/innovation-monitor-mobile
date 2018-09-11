@@ -129,7 +129,7 @@ Each of these functions is responsible for a different aspect of functionality w
 # The Mobile Project
 Finally, we get to see all of our hard work in action.
 
-Clone the repo and enter your API keys into the `Constants/Constants.cs` folder.
+Clone the `innovation-monitor-mobile` repo and enter your API keys into the `Constants/Constants.cs` folder and also search for any `TODO: ` items and make sure those are filled out.
 
 ```
 public class Constants
