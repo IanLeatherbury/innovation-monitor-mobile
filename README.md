@@ -40,7 +40,7 @@ This is broken down into 4 parts:
 
 ## IoT Part 1: Setting up the BME280
 
-This is project uses the code in [this repo](https://github.com/Azure-Samples/iot-hub-python-raspberrypi-client-app) to get set up and connect the BME280 (temp, pressure, humidity) sensor. I highly recommend you visit that repo for the latest maintained version of the sample. I've included the instructions at the time of writing for convenience.
+This project uses the code in [this repo](https://github.com/Azure-Samples/iot-hub-python-raspberrypi-client-app) to get set up and connect the BME280 (temp, pressure, humidity) sensor. I highly recommend you visit that repo for the latest maintained version of the sample. I've included the instructions at the time of writing for convenience.
 
 > This repo contains the source code to help you get started with Azure IoT using the Microsoft IoT Pack for Raspberry Pi 3 Starter Kit. You will find the [full tutorial on Docs.microsoft.com](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-raspberry-pi-kit-c-get-started).
 
@@ -91,11 +91,11 @@ You can use the application to simulate temperature&humidity data and send to yo
 
     ``[ 98%] Building CXX object python/src/CMakeFiles/iothub_client_python.dir/iothub_client_python.cpp.o``
 
-    If you run into this issue, check the **memory consumption** of the device using `free -m command` in another terminal window during that time. If you are running out of memory while compiling iothub_client_python.cpp file, you may have to temporarily increase the **swap space** to get more available memory to successfully build the Python client side device SDK library.
+    If you run into this issue check the **memory consumption** of the device using `free -m command` in another terminal window during that time. If you are running out of memory while compiling iothub_client_python.cpp file you may have to temporarily increase the **swap space** to get more available memory to successfully build the Python client side device SDK library.
 
 ### Step 4: Run your client application
 
-Run the client application, and you need to provide your Azure IoT hub device connection string, note your connection string should be quoted in the command:
+Run the client application, you'll need to provide your Azure IoT hub device connection string. Note your connection string should be quoted in the command:
    ```
    python app.py '<your Azure IoT hub device connection string>'
    ```
@@ -104,7 +104,7 @@ If you use the python 3, then you can use the command below:
    python3 app.py '<your Azure IoT hub device connection string>'
    ```
 
-If the application works normally, then you will see the screen like this:
+If the application works normally then you will see the screen like this:
 
 ![](https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/success.png)
 
