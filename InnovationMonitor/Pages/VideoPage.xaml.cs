@@ -1,14 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Net;
+using System.Linq;
+using System.Diagnostics;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
+
 using Plugin.MediaManager;
 using Plugin.MediaManager.Abstractions.Enums;
+
 using Xamarin.Forms;
 
 namespace InnovationMonitor.Pages

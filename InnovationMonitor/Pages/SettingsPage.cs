@@ -1,16 +1,17 @@
 ﻿using System;
-using System.Net.Http.Headers;
+using System.IO;
+using System.Linq;
 using System.Text;
 using System.Net.Http;
-
-using Xamarin.Forms;
-using Microsoft.WindowsAzure.Storage.Blob;
 using System.Diagnostics;
-using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+
+using Xamarin.Forms;
+
 using Microsoft.WindowsAzure.Storage;
-using System.IO;
+using Microsoft.WindowsAzure.Storage.Blob;
 
 namespace InnovationMonitor
 {
@@ -68,14 +69,17 @@ namespace InnovationMonitor
                 var client = new HttpClient();
 
                 // Request headers
-                client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "2fc81d194b10448fbe796c21e2256ce4");
+                //TODO: Enter in your api key
+                client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", "");
 
-                var uri = "https://westus2.api.cognitive.microsoft.com/vision/v1.0/analyze?visualFeatures=Categories&language=en";
+                //TODO: Enter in your URI
+                var uri = "";
 
                 HttpResponseMessage response;
 
                 // Request body
-                byte[] byteData = Encoding.UTF8.GetBytes(@"{""url"":""https://iansraspiblob.blob.core.windows.net/mycontainer//home/pi/iot-hub-python-raspberrypi-client-app/imgs/c06e10f0-5cf7-42d9-b819-f46568303a42.jpg""}");
+                //TODO: Enter in a default image url (any remotely hosted image should do)
+                byte[] byteData = Encoding.UTF8.GetBytes(@"{""url"":""enter in a default url""}");
 
                 using (var content = new ByteArrayContent(byteData))
                 {

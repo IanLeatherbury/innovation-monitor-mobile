@@ -1,20 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Linq;
+using System.Diagnostics;
+using System.Windows.Input;
+using InnovationMonitor.Cells;
 using System.Threading.Tasks;
 using InnovationMonitor.Models;
 using InnovationMonitor.Services;
-using Xamarin.Forms;
-using System.Linq;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Windows.Input;
-using InnovationMonitor.Cells;
-using System.Diagnostics;
+
+using Xamarin.Forms;
 
 namespace InnovationMonitor.Pages
 {
     public class TemperaturePage : ContentPage
     {
-        //ObservableCollection<string> temps = new ObservableCollection<string>();
         ObservableCollection<TempHumidityModel> temps = new ObservableCollection<TempHumidityModel>();
         ListView listView = new ListView();
 
@@ -81,8 +81,6 @@ namespace InnovationMonitor.Pages
 
                 var orderedByDate = tempHumidity.OrderByDescending(x => DateTime.Parse(x.TimeOfReading)).ToList();
 
-                //var temps = tempHumidity.Select(t => t.Temperature).ToList();
-
                 return orderedByDate;
             }
             catch (Exception ex)
@@ -94,7 +92,6 @@ namespace InnovationMonitor.Pages
                 //    { "Message", ex.Message },
                 //    { "StackTrace", ex.ToString() }
                 //}); 
-
             }
             finally
             {
