@@ -92,7 +92,7 @@ If you use the python 3, then you can use the command below:
 
 If the application works normally, then you will see the screen like this:
 
-![](./imgs/success.png)
+![](https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/success.png)
 
 ## IoT Part 2: Set up the camera and upload to Azure
 
@@ -122,3 +122,4 @@ Each of these functions is responsible for a different aspect of functionality w
 # The Mobile Project
 Finally, we get to see all of our hard work in action.
 
+<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-homepage.png">
