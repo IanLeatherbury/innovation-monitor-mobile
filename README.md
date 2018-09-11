@@ -8,8 +8,6 @@ Consists of the following:
 - [A Python Raspberry Pi App](https://github.com/IanLeatherbury/innovation-monitor-razzberry-pi)
 - [An Azure Function App](https://github.com/IanLeatherbury/innovation-monitor-functions)
 
-The accompanying projects can be found at the links above. This guide will break each repo down individually.
-
 Here's a look at the app:
 <p align="center">
 <img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-homepage.png" width="400">
@@ -21,7 +19,14 @@ And the high-level architecture diagram:
 <img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/arch-diagram.png" width="600">
 </p>
 
-Let's get started!
+### App Features
+ - Monitor internal (beer) and external (ambient) temperature
+ - Monitor ambient humidity and pressure
+ - Use AI / Custom Vision Service to determine if your beer is fermenting
+ - Take a picture of your fermentation
+ - Take a video of your fermentation
+
+This guide will break each repo down individually and guide you to the various resources needed to build the project. Let's get started!
 
 # The IoT Project
 
@@ -30,6 +35,8 @@ This is broken down into 4 parts:
 - Setting up the camera
 - Setting up the additional temperature sensor
 - Building the relay and light 
+
+
 
 ## IoT Part 1: Setting up the BME280
 
