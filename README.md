@@ -12,7 +12,7 @@ The accompanying projects can be found at the links above. This guide will break
 
 Also, take a look at the high-level architecture diagram:
 
-<img src="/imgs/arch-diagram.png" width="600">
+<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/arch-diagram.png" width="600">
 
 Let's get started!
 
