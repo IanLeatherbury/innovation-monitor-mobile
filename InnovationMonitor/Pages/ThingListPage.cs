@@ -1,6 +1,6 @@
 ﻿using System;
-using InnovationMonitor.Pages;
 using Xamarin.Forms;
+using InnovationMonitor.Pages;
 
 namespace InnovationMonitor
 {
