@@ -158,3 +158,8 @@ Deploy the app to a device or simulator and you should be good to go!
 <p align="center">
 <img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/mobile-app-temp.png" width="400">
 </p>
+
+<p align="center">
+<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/raspberry-pi.JPG" width="400">
+<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/setup.JPG" width="400">
+</p>
