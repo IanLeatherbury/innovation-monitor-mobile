@@ -16,7 +16,7 @@ Here's a look at the app:
 And the high-level architecture diagram:
 
 <p align="center">
-<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/arch-diagram.png" width="600">
+<img src="https://github.com/IanLeatherbury/innovation-monitor-mobile/raw/master/imgs/arch-diagram.png" width="700">
 </p>
 
 ### App Features
